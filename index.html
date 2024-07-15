@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="jigar sable, portfólio, jigar, desenvolvedor full stack, portfólio pessoal lifecodes, design de portfólio, site de portfólio, portfólio pessoal">
+    <meta name="description" content="Bem-vindo ao Portfólio de Jigar. Desenvolvedor Web Full-Stack e Desenvolvedor de Aplicativos Android">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <title>Portfólio | Fernando N. Batista</title>
+</head>
+<body oncontextmenu="return false">
+
+<!-- Barra de navegação -->
+<header>
+    <a href="/" class="logo">Fernando N. Batista</a>
+    <div id="menu" class="fas fa-bars"></div>
+    <nav class="navbar">
+        <ul>
+            <li><a class="active" href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#work">Trabalhos</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- Fim da barra de navegação -->
+
+<!-- Seção hero -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+    <div class="content">
+        <h2>Bem-vindo,<br/> Sou Fernando N. Batista <span></span></h2>
+        <p><span class="typing-text"></span></p>
+        <a href="#about" class="btn"><span>Sobre Mim</span><i class="fas fa-arrow-circle-down"></i></a>
+        <div class="socials">
+            <ul class="social-icons">
+                <li><a class="linktree" aria-label="LinkedIn" href="https://www.linkedin.com/in/fernandonascimentobatista/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a class="github" aria-label="GitHub" href="https://github.com/FernandoNB" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/hero.jpg" alt="">
+    </div>
+</section>
+<!-- Fim da seção hero -->
+
+<!-- Seção sobre -->
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> Sobre Mim</h2>
+    <div class="row">
+        <div class="image">
+            <img draggable="false" class="tilt" src="./assets/images/fernando.jpeg" alt="">
+        </div>
+        <div class="content">
+            <h3>Fernando N. Batista</h3>
+            <span class="tag">Técnico em Automação industrial</span>
+            <p>Com formação técnica em automação industrial e estudante de engenharia da computação, meu foco está em IoT e Automação 4.0. Busco aplicar tecnologias avançadas para melhorar processos industriais e criar soluções inovadoras.</p>
+            <div class="box-container">
+                <div class="box">
+                    <p><span>email:</span> pronegocios13@gmail.com</p>
+                    <p><span>localização:</span> Itatiba, SP</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Fim da seção sobre -->
+
+<!-- Seção habilidades -->
+<section class="skills" id="skills">
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> IoT & <span>Automação</span></h2>
+    <div class="box-container">
+        <div class="container">
+            <div class="row" id="projetos">
+                <div class="projeto">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição do Projeto 1.</p>
+                </div>
+                <div class="projeto">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição do Projeto 2.</p>
+                </div>
+                <div class="projeto" style="display: none;">
+                    <h3>Projeto 3</h3>
+                    <p>Descrição do Projeto 3.</p>
+                </div>
+                <div class="projeto" style="display: none;">
+                    <h3>Projeto 4</h3>
+                    <p>Descrição do Projeto 4.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="viewall" style="text-align: center; margin-top: 20px;">
+        <button id="verTodosProjetos" class="btn" style="background-color: #007bff; color: #fff; padding: 10px 20px; border: none; cursor: pointer; border-radius: 5px; font-size: 16px;">Ver Todos</button>
+        <button id="fecharProjetos" class="fechar-btn" style="background-color: #dc3545; color: #fff; padding: 10px 20px; border: none; cursor: pointer; border-radius: 5px; font-size: 16px; display: none;">Fechar</button>
+    </div>
+</section>
+<!-- Fim da seção habilidades -->
+
+<!-- Seção de vídeos -->
+<section class="work" id="work">
+    <h2 class="heading"><i class="fas fa-laptop-code"></i> Videos </h2>
+    <div class="box-container">
+        
+        <div class="video">
+            <a href="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7196544270076436481" target="_blank">
+                <img width="100%" height="315" src="./assets/images/Factoryplc.png" alt="Publicação no LinkedIn">
+                
+            </a>
+        </div>
+        <div class="video">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video" style="display: none;">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video" style="display: none;">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video" style="display: none;">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/VIDEO_ID_5" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+    </div>
+    <div class="viewall" style="text-align: center; margin-top: 20px;">
+        <button id="verTodosVideos" class="btn" style="background-color: #007bff; color: #fff; padding: 20px 20px; border: none; cursor: pointer; border-radius: 5px; font-size: 14px;">Ver Todos</button>
+        <button id="fecharVideos" class="fechar-btn" style="background-color: #dc3545; color: #fff; padding: 10px 20px; border: none; cursor: pointer; border-radius: 5px; font-size: 16px; display: none;">Fechar</button>
+    </div>
+</section>
+
+<!-- Fim da seção de vídeos -->
+
+<!-- Seção de rodapé -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Portifólio Fernando N. Batista</h3>
+        </div>
+        <div class="box">
+            <h3>Links Rápidos</h3>
+            <a href="#home"><i class="fas fa-chevron-circle-right"></i> Início</a>
+            <a href="#about"><i class="fas fa-chevron-circle-right"></i> Sobre</a>
+            <a href="#skills"><i class="fas fa-chevron-circle-right"></i> Habilidades</a>
+        </div>
+        <div class="box">
+            <h3>Informações de Contato</h3>
+            <p><i class="fas fa-phone"></i> +55 1194202-9143</p>
+            <p><i class="fas fa-envelope"></i> pronegocios13@gmail.com</p>
+            <p><i class="fas fa-map-marked-alt"></i> Itatiba, SP</p>
+            <div class="share">
+                <a href="https://github.com/FernandoNB" target="_blank" class="fab fa-github" aria-label="GitHub"></a>
+                <a href="mailto:pronegocios13@gmail.com" class="fas fa-envelope" aria-label="Mail"></a>
+            </div>
+        </div>
+    </div>
+    <h1 class="credit">Todos os direitos reservados! © <i class="fa fa-heart pulse"></i> Fernando N. Batista</h1>
+</section>
+<!-- Fim da seção de rodapé -->
+
+<script src="scripts.js"></script>
+<script>
+    // Script para alternar entre visualizar todos e apenas os recentes
+    const verTodosProjetosBtn = document.getElementById('verTodosProjetos');
+    const fecharProjetosBtn = document.getElementById('fecharProjetos');
+    const verTodosVideosBtn = document.getElementById('verTodosVideos');
+    const fecharVideosBtn = document.getElementById('fecharVideos');
+
+    const projetos = document.querySelectorAll('#projetos .projeto');
+    const videos = document.querySelectorAll('#work .video');
+
+    for (let i = 0; i < videos.length; i++) {
+        if (i >= 2) {
+            videos[i].style.display = 'none';
+        }
+    }
+
+    verTodosProjetosBtn.addEventListener('click', () => {
+        projetos.forEach(projeto => projeto.style.display = 'block');
+        verTodosProjetosBtn.style.display = 'none';
+        fecharProjetosBtn.style.display = 'block';
+    });
+
+    fecharProjetosBtn.addEventListener('click', () => {
+        projetos.forEach((projeto, index) => {
+            if (index >= 2) projeto.style.display = 'none';
+        });
+        fecharProjetosBtn.style.display = 'none';
+        verTodosProjetosBtn.style.display = 'block';
+    });
+
+    verTodosVideosBtn.addEventListener('click', () => {
+        videos.forEach(video => video.style.display = 'block');
+        verTodosVideosBtn.style.display = 'none';
+        fecharVideosBtn.style.display = 'block';
+    });
+
+    fecharVideosBtn.addEventListener('click', () => {
+        for (let i = 0; i < videos.length; i++) {
+            if (i >= 2) videos[i].style.display = 'none';
+        }
+        fecharVideosBtn.style.display = 'none';
+        verTodosVideosBtn.style.display = 'block';
+    });
+</script>
+
+<!-- Botão de rolar para o topo -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- Fim do botão de rolar para o topo -->
+
+</body>
+</html>

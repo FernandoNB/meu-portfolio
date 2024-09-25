@@ -83,14 +83,28 @@
         <div class="container">
             <div class="row" id="projetos">
                 <div class="projeto">
-                    <h3>IoT e Automação com ESP32 Cam</h3>
-                    <p>Visão Computacional na Indústria</p>
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/aXr6jBIEo64?si=a5Gprja3XwDHdW-8" title="IoT e Automação com ESP32 Cam | Visão Computacional na Indústria" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p style="padding: 10px;">Visão Computacional na Indústria</p>
+            <div style="position: relative; padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+                    height: 0; overflow: hidden;">
+           <iframe src="https://www.youtube.com/embed/aXr6jBIEo64?si=a5Gprja3XwDHdW-8"
+                   title="IoT e Automação com ESP32 Cam | Visão Computacional na Indústria"
+                   frameborder="0"
+                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                   allowfullscreen
+                   style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+       </div>
                 </div>
                 <div class="projeto">
-                    <h3>CRM Automatizado</h3>
-                    <p>Gerenciador de inspeções e dados com google sheets</p>
-    <iframe width="100%" height="315" src="https://www.youtube.com/embed/U6iJ5oG-tz0" title="Gerenciador de inspeções e dados com google sheets" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p style="padding: 10px;">Gerenciador de inspeções e dados com Google Sheets</p>
+                    <div style="position: relative; padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+                    height: 0; overflow: hidden;">
+           <iframe src="https://www.youtube.com/embed/U6iJ5oG-tz0"
+                   title="Gerenciador de inspeções e dados com Google Sheets"
+                   frameborder="0"
+                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                   allowfullscreen
+                   style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+       </div>
                 </div>
                 
             </div>
@@ -108,9 +122,16 @@
     <h2 class="heading"><i class="fas fa-laptop-code"></i> Videos </h2>
     <div class="box-container">
         <div class="video">
-             <h3>Comando de Partida com Reversão e Monitoramento de Falta de Fase</h3>
                     <p>Configurar uma partida com reversão e monitorar faltas de fase de forma prática.</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dPv853WLg8c?si=zi54HF7pavq4j3ao" title="Gerenciador de inspeções e dados com google sheets" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div style="position: relative; padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+                    height: 0; overflow: hidden;">
+           <iframe src="https://www.youtube.com/embed/dPv853WLg8c?si=zi54HF7pavq4j3ao"
+                   title="Gerenciador de Inspeções e Dados com Google Sheets"
+                   frameborder="0"
+                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                   allowfullscreen
+                   style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+       </div>
         </div>
        <div class="video">
             <a href="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7196544270076436481" target="_blank">
@@ -151,7 +172,7 @@
             <h3>Informações de Contato</h3>
             <p><i class="fas fa-phone"></i> +55 1194202-9143</p>
             <p><i class="fas fa-envelope"></i> pronegocios13@gmail.com</p>
-            <p><i class="fas fa-map-marked-alt"></i> Itatiba, SP</p>
+            <p><i class="fas fa-map-marked-alt"></i> Itatiba, Jundiai - SP</p>
             <div class="share">
                 <a href="https://github.com/FernandoNB" target="_blank" class="fab fa-github" aria-label="GitHub"></a>
                 <a href="mailto:pronegocios13@gmail.com" class="fas fa-envelope" aria-label="Mail"></a>
@@ -187,7 +208,7 @@
 
     fecharProjetosBtn.addEventListener('click', () => {
         projetos.forEach((projeto, index) => {
-            if (index >= 1) projeto.style.display = 'none';
+            if (index >= 2) projeto.style.display = 'none';
         });
         fecharProjetosBtn.style.display = 'none';
         verTodosProjetosBtn.style.display = 'block';
